@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeVidi9Aug2
+  gitServerName: vidi9Aug
+  gitUrl: https://github.com/vijetadixit/EdgeVidi9Aug2
+  gitUsername: vijetadixit
+  gitToken: edge.scaffolding.EdgeVidi9Aug2.vidi9Aug.gitToken
+  gitBranch: Master
