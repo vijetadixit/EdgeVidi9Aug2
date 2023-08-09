@@ -1,6 +1,15 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.vidi9aug2.integrations:Test1
+  packages:
+  - name: EdgeVidi9Aug2
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.451
 packages:
 - name: EdgeVidi9Aug2
   gitServerName: vidi9Aug
