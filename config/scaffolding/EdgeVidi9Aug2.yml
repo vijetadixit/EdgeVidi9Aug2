@@ -10,6 +10,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.451
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.451
+- serviceName: edge.vidi9aug2.integrations:Test2
+  packages:
+  - name: EdgeVidi9Aug2
+    version: "1.0"
 packages:
 - name: EdgeVidi9Aug2
   gitServerName: vidi9Aug
